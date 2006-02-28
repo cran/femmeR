@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Steady state 1D}{2}{section.1}
+\contentsline {section}{\numberline {2}Time dependent 0-d}{4}{section.2}
+\contentsline {section}{\numberline {3}Time dependant 1-d}{6}{section.3}
+\contentsline {section}{\numberline {4}Sensitivity analysis}{9}{section.4}
+\contentsline {section}{\numberline {5}Monte Carlo simulations}{11}{section.5}
+\contentsline {section}{\numberline {6}Parameter Covariance output analysis}{11}{section.6}
+\contentsline {section}{\numberline {7}Bayesian data analysis}{16}{section.7}
+\contentsline {section}{\numberline {8}Inverse analysis}{18}{section.8}
+\contentsline {section}{\numberline {9}Parameter files}{20}{section.9}
+\contentsline {section}{\numberline {A}A short introduction to R}{22}{section.A}
+\contentsline {subsection}{\numberline {A.1}Using packages e.g. \texttt {\leavevmode {\color {blue}femmeR}}}{22}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Working directory}{22}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}Getting help}{22}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}Entering data}{22}{subsection.A.4}
+\contentsline {subsection}{\numberline {A.5}Subplots}{23}{subsection.A.5}
+\contentsline {subsection}{\numberline {A.6}Mathematical expressions}{23}{subsection.A.6}
+\contentsline {subsection}{\numberline {A.7}Customizing plots}{24}{subsection.A.7}
+\contentsline {subsection}{\numberline {A.8}Using colors}{25}{subsection.A.8}

@@ -1,0 +1,22 @@
+
+Parameter values for tracer model
+Testing, testing           
+
+#########################
+
+  IrrigationType = BOTH
+
+  IrrigationFactor      = 8.13          -             Irrigation enhancement factor
+
+  IrrigationRate        =  4.8E-05       /hour        
+                        
+  HeightChamber         =  0.105            m              Height of chamber 
+  SurfaceChamber          =  0.007853982            m2             Surface area of chamber 
+  TracerAdded              =  14.43           mmol
+  SedimentationRate     =  0.  cm/hour      Advection rate at depth
+  TemperatureChamber    =  16              dgC            Temperature in chamber
+  SurfacePorosity       =  0.516        
+  DeepPorosity          =  0.443       
+  PorosityCoeff         =  0.3		 
+  MixingLayer           =  10.           
+  DbCoeff               =  1.       

@@ -1,0 +1,291 @@
+ 
+ 
+ ===================================
+ ===================================
+ ==                               ==
+ ==       INVERSE  RESULTS        ==
+ ==                               ==
+ ===================================
+ ===================================
+ 
+ Number of flows                         26
+ Number of Mass balances                  7
+ Number of other equations                6
+ Number of imposed constraints           25
+ 
+ Solution obtained by Least distance programming - L2 norm
+ Minimising the sum of squared paths
+ 
+ Residual norm   2.092235986429614E-021
+ Solution norm    135370.391576884     
+ 
+ 
+ 
+ ===================================
+ ==        SYSTEM INDICES         ==
+ ===================================
+ 
+ 
+System throughput                  1049.3101
+System entropy                        2.1249
+System information content            1.3517
+System pathlength                     2.9903
+System cycling index                  2.4870          0.2370   % of throughput
+System ascendency                  1418.3064         63.6097   % of max capacity
+System overhead                     811.3965         36.3903   % of max capacity
+System maximal capacity            2229.7029
+ 
+ 
+ 
+ ===================================
+ =         NETWORK  FLOWS          =
+ ===================================
+ 
+From->to                                                Value             Weight     Type       Resolution %INput     %Output   
+P1->CO2                                                  17.2250           1.0000   ZeroOrder       0.37      0.00     51.41
+P2->CO2                                                  29.9540           1.0000   ZeroOrder       0.38      0.00     55.00
+Z->CO2                                                   30.1958           1.0000   ZeroOrder       0.33      0.00     76.19
+N->CO2                                                   13.4030           1.0000   ZeroOrder       0.38      0.00     98.82
+B->CO2                                                  244.9922           1.0000   ZeroOrder       0.59      0.00     93.80
+CO2->P1                                                  31.3182           1.0000   ZeroOrder       0.60     93.46      0.00
+CO2->P2                                                  54.4618           1.0000   ZeroOrder       0.60    100.00      0.00
+P1->Z                                                    10.4943           1.0000   ZeroOrder       0.33     26.48     31.32
+P1->N                                                     4.1230           1.0000   ZeroOrder       0.37     30.40     12.30
+P1->DOC                                                   1.5659           1.0000   ZeroOrder       0.35      0.60      4.67
+P1->SEDIMENTATION                                         0.1000           1.0000   ZeroOrder       1.00      0.00      0.30
+P2->DOC                                                   2.7231           1.0000   ZeroOrder       0.34      1.04      5.00
+P2->Z                                                    16.7976           1.0000   ZeroOrder       0.32     42.38     30.84
+P2->D                                                     4.4572           1.0000   ZeroOrder       0.38     16.97      8.18
+P2->SEDIMENTATION                                         0.3400           1.0000   ZeroOrder       1.00      0.00      0.62
+N->DOC                                                    0.0000           1.0000   ZeroOrder       0.35      0.00      0.00
+N->Z                                                      0.0000           1.0000   ZeroOrder       0.33      0.00      0.00
+Z->DOC                                                    3.9632           1.0000   ZeroOrder       0.28      1.52     10.00
+Z->D                                                      3.1832           1.0000   ZeroOrder       0.29     12.12      8.03
+Z->SEDIMENTATION                                          0.7800           1.0000   ZeroOrder       1.00      0.00      1.97
+D->Z                                                     12.3404           1.0000   ZeroOrder       0.29     31.14     46.99
+D->DOC                                                    0.0000           1.0000   ZeroOrder       0.36      0.00      0.00
+D->SEDIMENTATION                                         13.9200           1.0000   ZeroOrder       0.72      0.00     53.01
+B->N                                                      9.4400           1.0000   ZeroOrder       0.72     69.60      3.61
+B->SEDIMENTATION                                          0.0000           1.0000   ZeroOrder       0.72      0.00      0.00
+DOC->B                                                  261.1822           1.0000   ZeroOrder       0.59    100.00    100.00
+ 
+ 
+ ========================================
+ =         RESOLUTION OF EQUATIONS      =
+ ========================================
+ 
+ Full equations can be found in .LOG file
+ 
+EQUATION NUMBER
+Mass Balance                   1        1.0000000000
+Mass Balance                   2        1.0000000000
+Mass Balance                   3        1.0000000000
+Mass Balance                   4        1.0000000000
+Mass Balance                   5        1.0000000000
+Mass Balance                   6        1.0000000000
+Mass Balance                   7        1.0000000000
+  Equation                     1        1.0000000000
+  Equation                     2        1.0000000000
+  Equation                     3        1.0000000000
+  Equation                     4        1.0000000000
+  Equation                     5        1.0000000000
+  Equation                     6        1.0000000000
+ 
+ 
+ ===================================
+ =         RESIDUALS               =
+ ===================================
+ 
+ SolvableUnknowns      Solution Norm               Residual Norm
+      13                135370.39                        0.00
+      12                135369.47                        0.00
+ 
+ 
+ ===================================
+ =         VARIABLES               =
+ ===================================
+ 
+Variable                                             Value     
+GROSSPRODP1                                          31.3182
+RESPIRATIONP1                                        17.2250
+DOCRELEASEP1                                          1.5659
+SEDP1                                                 0.1000
+GROSSPRODP2                                          54.4618
+RESPIRATIONP2                                        29.9540
+DOCRELEASEP2                                          2.7231
+SEDP2                                                 0.3400
+GROSSPRIMPROD                                        85.7800
+TOTALRESP                                           335.7700
+ZOODOCRELEASE                                         3.9632
+ZOOGRAZING                                           39.6323
+ZOOFAECES                                             3.1832
+ZOOFAECESSED                                          0.7800
+ZOOASSIMILATION                                      31.7058
+ZOORESPIRATION                                       30.1958
+BACTRESPIRATION                                     244.9922
+BACTASSIMILATION                                    261.1822
+SEDB                                                  0.0000
+NANORESPIRATION                                      13.4030
+NANOGRAZING                                          13.5630
+NANOGRAZINGBACTERIA                                   9.4400
+NANOGRAZINGP1                                         4.1230
+NANOASSIMILATION                                     13.5630
+DETRITUSDOCRELEASE                                    0.0000
+SEDD                                                 13.9200
+XRESIDUALNORM                                         0.0000
+XSOLUTIONNORM                                    135370.3916
+ 
+ 
+ ===================================
+ =     EQUALITIES AND INEQUALITIES =
+ ===================================
+ 
+ 
+ Mass balance equations should be satisfied within model error
+ If not equality and inequality conditions do not satisfy mass balance !
+ Other equations may not be satisfied if no solution exist
+ 
+ Residual of inequalities should be 0 or positive             
+ 
+ -------------------------------
+ Result of A*X=B and residuals :
+ -------------------------------
+ 
+ Mass balance equations and residuals for the following components:
+P1                                 -0.219E+01 =      -0.219E+01           0.000E+00
+P2                                  0.190E+00 =       0.190E+00           0.000E+00
+B                                   0.675E+01 =       0.675E+01           0.000E+00
+N                                   0.160E+00 =       0.160E+00           0.000E+00
+Z                                   0.151E+01 =       0.151E+01           0.000E+00
+D                                  -0.186E+02 =      -0.186E+02           0.000E+00
+DOC                                -0.253E+03 =      -0.253E+03           0.000E+00
+ 
+ 
+ Ordinary equations:
+                                    0.858E+02 =       0.858E+02           0.000E+00
+                                    0.336E+03 =       0.336E+03           0.000E+00
+                                    0.162E+02 =       0.162E+02           0.000E+00
+                                    0.340E+00 =       0.340E+00           0.000E+00
+                                    0.780E+00 =       0.780E+00           0.000E+00
+                                    0.139E+02 =       0.139E+02           0.000E+00
+ 
+ -------------------------------
+ Result of G*X>H and residuals: 
+ -------------------------------
+                                    0.000E+00 >      -0.711E+01           0.711E+01
+                                    0.000E+00 >       0.000E+00           0.000E+00
+                                    0.104E+04 >       0.000E+00           0.104E+04
+                                    0.000E+00 >       0.000E+00           0.000E+00
+                                    0.135E+03 >       0.000E+00           0.135E+03
+                                    0.000E+00 >       0.000E+00           0.000E+00
+                                    0.316E+01 >       0.000E+00           0.316E+01
+                                    0.722E+01 >       0.000E+00           0.722E+01
+                                    0.151E+01 >      -0.905E+01           0.106E+02
+                                    0.905E+01 >       0.905E+01           0.000E+00
+                                    0.162E+02 >      -0.873E+01           0.249E+02
+                                    0.160E+03 >       0.873E+01           0.152E+03
+                                    0.160E+00 >      -0.385E+00           0.545E+00
+                                    0.612E+01 >       0.385E+00           0.574E+01
+                                    0.157E+02 >       0.000E+00           0.157E+02
+                                    0.000E+00 >       0.000E+00           0.000E+00
+                                    0.000E+00 >       0.000E+00           0.000E+00
+                                    0.272E+02 >       0.000E+00           0.272E+02
+                                    0.507E+00 >       0.000E+00           0.507E+00
+                                    0.292E+02 >       0.000E+00           0.292E+02
+                                    0.517E+02 >       0.000E+00           0.517E+02
+                                    0.000E+00 >       0.000E+00           0.000E+00
+                                    0.184E+02 >       0.000E+00           0.184E+02
+                                    0.498E+01 >       0.000E+00           0.498E+01
+                                    0.162E+02 >       0.000E+00           0.162E+02
+Flows>0                             0.157E+01 >       0.000E+00           0.157E+01
+                                    0.300E+02 >       0.000E+00           0.300E+02
+                                    0.161E+02 >       0.000E+00           0.161E+02
+                                    0.103E+02 >       0.000E+00           0.103E+02
+                                    0.278E+03 >       0.000E+00           0.278E+03
+                                    0.313E+02 >       0.000E+00           0.313E+02
+                                    0.545E+02 >       0.000E+00           0.545E+02
+                                    0.000E+00 >       0.000E+00           0.000E+00
+                                    0.103E+01 >       0.000E+00           0.103E+01
+                                    0.308E+02 >       0.000E+00           0.308E+02
+                                    0.100E+00 >       0.000E+00           0.100E+00
+                                    0.272E+01 >       0.000E+00           0.272E+01
+                                    0.503E+01 >       0.000E+00           0.503E+01
+                                    0.162E+02 >       0.000E+00           0.162E+02
+                                    0.340E+00 >       0.000E+00           0.340E+00
+                                    0.000E+00 >       0.000E+00           0.000E+00
+                                    0.000E+00 >       0.000E+00           0.000E+00
+                                    0.757E+01 >       0.000E+00           0.757E+01
+                                    0.000E+00 >       0.000E+00           0.000E+00
+                                    0.780E+00 >       0.000E+00           0.780E+00
+                                    0.209E+02 >       0.000E+00           0.209E+02
+                                    0.000E+00 >       0.000E+00           0.000E+00
+                                    0.139E+02 >       0.000E+00           0.139E+02
+                                    0.944E+01 >       0.000E+00           0.944E+01
+                                    0.000E+00 >       0.000E+00           0.000E+00
+                                    0.294E+03 >       0.000E+00           0.294E+03
+ 
+ 
+ ===================================
+ =         NETWORK  RANGES         =
+ ===================================
+ 
+Flows                                                Minimum      Maximum      Value     
+P1->CO2                                                  0.958      17.225      17.225
+P2->CO2                                                  2.723      36.643      29.954
+Z->CO2                                                  16.092      79.569      30.196
+N->CO2                                                   0.748      13.403      13.403
+B->CO2                                                 244.992     314.641     244.992
+CO2->P1                                                 19.156      31.318      31.318
+CO2->P2                                                 54.462      66.624      54.462
+P1->Z                                                    0.000      30.187      10.494
+P1->N                                                    0.089       4.123       4.123
+P1->DOC                                                  0.958      31.318       1.566
+P1->SEDIMENTATION                                        0.100       0.100       0.100
+P2->DOC                                                  2.723      62.763       2.723
+P2->Z                                                    0.000      59.432      16.798
+P2->D                                                    0.000      59.432       4.457
+P2->SEDIMENTATION                                        0.340       0.340       0.340
+N->DOC                                                   0.000       7.593       0.000
+N->Z                                                     0.000       7.593       0.000
+Z->DOC                                                   2.200      54.416       3.963
+Z->D                                                     0.000      90.434       3.183
+Z->SEDIMENTATION                                         0.780       0.780       0.780
+D->Z                                                     0.000     147.090      12.340
+D->DOC                                                   0.000       7.105       0.000
+D->SEDIMENTATION                                         5.112      13.920      13.920
+B->N                                                     0.632       9.440       9.440
+B->SEDIMENTATION                                         0.000       8.808       0.000
+DOC->B                                                 261.182     330.831     261.182
+ 
+ 
+ ===================================
+ =      VARIABLES AND RANGE        =
+ ===================================
+ 
+Variable                                  Minimum      Maximum      Value     
+GROSSPRODP1                                   19.156         31.318         31.318
+RESPIRATIONP1                                  0.958         17.225         17.225
+DOCRELEASEP1                                   0.958         31.318          1.566
+SEDP1                                          0.100          0.100          0.100
+GROSSPRODP2                                   54.462         66.624         54.462
+RESPIRATIONP2                                  2.723         36.643         29.954
+DOCRELEASEP2                                   2.723         62.763          2.723
+SEDP2                                          0.340          0.340          0.340
+GROSSPRIMPROD                                 85.780         85.780         85.780
+TOTALRESP                                    335.770        335.770        335.770
+ZOODOCRELEASE                                  2.200         54.416          3.963
+ZOOGRAZING                                    22.002        182.427         39.632
+ZOOFAECES                                      0.000         90.434          3.183
+ZOOFAECESSED                                   0.780          0.780          0.780
+ZOOASSIMILATION                               17.602         81.079         31.706
+ZOORESPIRATION                                16.092         79.569         30.196
+BACTRESPIRATION                              244.992        314.641        244.992
+BACTASSIMILATION                             261.182        330.831        261.182
+SEDB                                           0.000          8.808          0.000
+NANORESPIRATION                                0.748         13.403         13.403
+NANOGRAZING                                    0.908         13.563         13.563
+NANOGRAZINGBACTERIA                            0.632          9.440          9.440
+NANOGRAZINGP1                                  0.089          4.123          4.123
+NANOASSIMILATION                               0.908         13.563         13.563
+DETRITUSDOCRELEASE                             0.000          7.105          0.000
+SEDD                                           5.112         13.920         13.920

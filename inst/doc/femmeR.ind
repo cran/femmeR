@@ -1,0 +1,49 @@
+\begin{theindex}
+
+  \item .Rdata, \hyperpage{22}
+
+  \indexspace
+
+  \item c, \hyperpage{22}
+
+  \indexspace
+
+  \item getwd, \hyperpage{22}
+
+  \indexspace
+
+  \item library, \hyperpage{22}
+
+  \indexspace
+
+  \item pairs.bay, \hyperpage{17}
+  \item plot.bay, \hyperpage{16}
+  \item plot.crl, \hyperpage{11}
+  \item plot.o1, \hyperpage{4}
+  \item plot.o2, \hyperpage{6}
+  \item plot.pcv, \hyperpage{11}
+  \item plot.sns, \hyperpage{9}
+  \item plot.st1, \hyperpage{2}
+
+  \indexspace
+
+  \item raftery.diag, \hyperpage{17}
+  \item read.bay, \hyperpage{16}
+  \item read.crl, \hyperpage{11}
+  \item read.o1, \hyperpage{4}
+  \item read.o2, \hyperpage{6}
+  \item read.par, \hyperpage{20}
+  \item read.pcv, \hyperpage{11}
+  \item read.sns, \hyperpage{9}
+  \item read.st1, \hyperpage{2}
+
+  \indexspace
+
+  \item setwd, \hyperpage{22}
+  \item summary.pcv, \hyperpage{11}
+
+  \indexspace
+
+  \item write.par, \hyperpage{20}
+
+\end{theindex}

@@ -1,0 +1,568 @@
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (MiKTeX 2.4) (preloaded format=latex 2006.1.19)  27 FEB 2006 15:12
+entering extended mode
+**femmeR.tex
+(femmeR.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8g> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, french, loaded.
+(C:\texmf\tex\latex\koma-script\scrartcl.cls
+Document Class: scrartcl 2004/09/16 v2.9t LaTeX2e KOMA document class
+(C:\texmf\tex\latex\koma-script\scrlfile.sty
+Package: scrlfile 2004/09/16 v2.9t LaTeX2e KOMA package
+
+Package scrlfile, 2004/09/16 v2.9t LaTeX2e KOMA package
+                  Copyright (C) Markus Kohm
+
+) (C:\texmf\tex\latex\base\size11.clo
+File: size11.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+(C:\texmf\tex\latex\koma-script\typearea.sty
+Package: typearea 2004/09/16 v2.9t LaTeX2e KOMA package
+
+Package typearea, 2004/09/16 v2.9t LaTeX2e KOMA package
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-2002
+
+\ta@bcor=\skip41
+\ta@div=\count79
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              \columnwidth    = 0.0pt
+(typearea)              \columnsep      = 0.0pt
+(typearea)              DIV-departure   = -6/100
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.60002pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 633.
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@pti@nb@sid@b@x=\box26
+\bibindent=\dimen102
+) (C:\texmf\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen103
+\lightrulewidth=\dimen104
+\cmidrulewidth=\dimen105
+\belowrulesep=\dimen106
+\belowbottomsep=\dimen107
+\aboverulesep=\dimen108
+\abovetopsep=\dimen109
+\cmidrulesep=\dimen110
+\cmidrulekern=\dimen111
+\defaultaddspace=\dimen112
+\@cmidla=\count88
+\@cmidlb=\count89
+\@aboverulesep=\dimen113
+\@belowrulesep=\dimen114
+\@thisruleclass=\count90
+\@lastruleclass=\count91
+\@thisrulewidth=\dimen115
+)
+(C:\texmf\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\texmf\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(C:\texmf\tex\latex\graphics\graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+ (C:\texmf\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (C:\texmf\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2005/12/29 v1.2 MiKTeX 'graphics' configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(C:\texmf\tex\latex\graphics\pdftex.def
+File: pdftex.def 2005/06/20 v0.03m graphics/color for pdftex
+\Gread@gobject=\count92
+))
+\Gin@req@height=\dimen116
+\Gin@req@width=\dimen117
+)
+(C:\texmf\tex\latex\graphics\color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+ (C:\texmf\tex\latex\00miktex\color.cfg
+File: color.cfg 2005/12/29 v1.1 MiKTeX 'color' configuration
+)
+Package color Info: Driver file: pdftex.def on input line 125.
+) (C:\texmf\tex\latex\natbib\natbib.sty
+Package: natbib 2006/01/12 7.2 (PWD)
+\bibhang=\skip47
+\bibsep=\skip48
+LaTeX Info: Redefining \cite on input line 541.
+\c@NAT@ctr=\count93
+)
+(C:\texmf\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+)
+(C:\texmf\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(C:\texmf\tex\latex\amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01
+ (C:\texmf\tex\latex\amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen118
+)) (C:\texmf\tex\latex\amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen119
+)
+(C:\texmf\tex\latex\amsmath\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen120
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip10
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks16
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks17
+\eqnshift@=\dimen121
+\alignsep@=\dimen122
+\tagshift@=\dimen123
+\tagwidth@=\dimen124
+\totwidth@=\dimen125
+\lineht@=\dimen126
+\@envbody=\toks18
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+) (C:\texmf\tex\latex\base\makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+\@indexfile=\write3
+
+Writing index file femmeR.idx
+(C:\texmf\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2003/11/30 v6.74m Hypertext links for LaTeX
+\@linkdim=\dimen127
+\Hy@linkcounter=\count106
+\Hy@pagecounter=\count107
+
+(C:\texmf\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2003/11/30 v6.74m Hyperref: PDFDocEncoding definition (HO)
+)
+(C:\texmf\tex\latex\00miktex\hyperref.cfg
+File: hyperref.cfg 2003/03/08 v1.0 MiKTeX 'hyperref' configuration
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 1830.
+Package hyperref Info: Hyper figures OFF on input line 1880.
+Package hyperref Info: Link nesting OFF on input line 1885.
+Package hyperref Info: Hyper index ON on input line 1888.
+Package hyperref Info: Plain pages ON on input line 1893.
+Package hyperref Info: Backreferencing OFF on input line 1900.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2004.
+(C:\texmf\tex\latex\ltxmisc\url.sty
+\Urlmuskip=\muskip11
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 2143.
+\Fld@menulength=\count108
+\Field@Width=\dimen128
+\Fld@charsize=\dimen129
+\Choice@toks=\toks20
+\Field@toks=\toks21
+Package hyperref Info: Hyper figures OFF on input line 2618.
+Package hyperref Info: Link nesting OFF on input line 2623.
+Package hyperref Info: Hyper index ON on input line 2626.
+Package hyperref Info: backreferencing OFF on input line 2633.
+Package hyperref Info: Link coloring ON on input line 2636.
+\c@Item=\count109
+\c@Hfootnote=\count110
+)
+*hyperref using default driver hpdftex*
+(C:\texmf\tex\latex\hyperref\hpdftex.def
+File: hpdftex.def 2003/11/30 v6.74m Hyperref driver for pdfTeX
+ (C:\texmf\tex\latex\psnfss\pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(C:\texmf\tex\latex\psnfss\upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+ (C:\texmf\tex\latex\psnfss\upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\Fld@listcount=\count111
+\@outlinefile=\write4
+)
+(c:/R/R-2.2.1/share/texmf/Sweave.sty
+
+LaTeX Warning: You have requested package `c:/R/R-2.2.1/share/texmf/Sweave',
+               but the package provides `Sweave'.
+
+Package: Sweave 
+(C:\texmf\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+) (C:\texmf\tex\latex\base\fontenc.sty
+Package: fontenc 2004/02/22 v1.99f Standard LaTeX package
+
+(C:\texmf\tex\latex\base\t1enc.def
+File: t1enc.def 2004/02/22 v1.99f Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)) (C:\texmf\tex\latex\ae\ae.sty
+Package: ae 2001/02/12 1.3 Almost European Computer Modern
+
+(C:\texmf\tex\latex\base\fontenc.sty
+Package: fontenc 2004/02/22 v1.99f Standard LaTeX package
+ (C:\texmf\tex\latex\base\t1enc.def
+File: t1enc.def 2004/02/22 v1.99f Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
+
+(C:\texmf\tex\latex\ae\t1aer.fd
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+))) (C:\texmf\tex\latex\fancyvrb\fancyvrb.sty
+Package: fancyvrb 1998/07/17
+
+Style option: `fancyvrb' v2.6, with DG/SPQR fixes <1998/07/17> (tvz)
+\FV@CodeLineNo=\count112
+\FV@InFile=\read1
+\FV@TabBox=\box29
+\c@FancyVerbLine=\count113
+\FV@StepNumber=\count114
+\FV@OutFile=\write5
+
+No file fancyvrb.cfg.
+) (C:\texmf\tex\latex\upquote\upquote.sty
+Package: upquote 2003/08/11 v1.1 Covington's upright-quote modification to verb
+atim and verb
+ (C:\texmf\tex\latex\base\textcomp.sty
+Package: textcomp 2004/02/22 v1.99f Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+(C:\texmf\tex\latex\base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+))) (femmeR.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 32.
+
+(C:\texmf\tex\latex\base\ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 32.
+ (C:\texmf\tex\context\base\supp-pdf.tex
+(C:\texmf\tex\context\base\supp-mis.tex
+loading : Context Support Macros / Miscellaneous (2004.10.26)
+\protectiondepth=\count115
+\scratchcounter=\count116
+\scratchtoks=\toks22
+\scratchdimen=\dimen130
+\scratchskip=\skip61
+\scratchmuskip=\muskip12
+\scratchbox=\box30
+\scratchread=\read2
+\scratchwrite=\write6
+\zeropoint=\dimen131
+\onepoint=\dimen132
+\onebasepoint=\dimen133
+\minusone=\count117
+\thousandpoint=\dimen134
+\onerealpoint=\dimen135
+\emptytoks=\toks23
+\nextbox=\box31
+\nextdepth=\dimen136
+\everyline=\toks24
+\!!counta=\count118
+\!!countb=\count119
+\recursecounter=\count120
+)
+loading : Context Support Macros / PDF (2004.03.26)
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen137
+\MPnumerator=\count124
+\everyMPtoPDFconversion=\toks25
+)
+Package hyperref Info: Link coloring ON on input line 32.
+ (C:\texmf\tex\latex\hyperref\nameref.sty
+Package: nameref 2003/12/03 v2.21 Cross-referencing by name of section
+\c@section@level=\count125
+)
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+ (femmeR.out) (femmeR.out)
+LaTeX Font Info:    Try loading font information for T1+aess on input line 35.
+
+(C:\texmf\tex\latex\ae\t1aess.fd
+File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
+)
+LaTeX Font Info:    Try loading font information for T1+aett on input line 35.
+ (C:\texmf\tex\latex\ae\t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+
+LaTeX Font Warning: Font shape `T1/aett/bx/n' undefined
+(Font)              using `T1/aett/m/n' instead on input line 35.
+
+(femmeR.toc)
+\tf@toc=\write7
+ [1
+
+
+{psfonts.map}] <figures/f-002.pdf, id=81, 433.62pt x 433.62pt>
+File: figures/f-002.pdf Graphic file (type pdf)
+
+<use figures/f-002.pdf> <figures/f-003.pdf, id=82, 433.62pt x 433.62pt>
+File: figures/f-003.pdf Graphic file (type pdf)
+
+<use figures/f-003.pdf> [2 <figures/f-002.pdf>]
+<figures/f-004.pdf, id=106, 433.62pt x 433.62pt>
+File: figures/f-004.pdf Graphic file (type pdf)
+ <use figures/f-004.pdf>
+[3 <figures/f-003.pdf> <figures/f-004.pdf>]
+<figures/f-005.pdf, id=129, 433.62pt x 433.62pt>
+File: figures/f-005.pdf Graphic file (type pdf)
+ <use figures/f-005.pdf>
+<figures/f-006.pdf, id=130, 433.62pt x 433.62pt>
+File: figures/f-006.pdf Graphic file (type pdf)
+ <use figures/f-006.pdf>
+[4 <figures/f-005.pdf>]
+Overfull \hbox (14.44078pt too wide) in paragraph at lines 141--144
+[]\T1/aer/m/n/10.95 Plotting sev-eral vari-ables at once is also pos-si-ble, se
+-lect-ing a set with e.g. []\T1/aett/m/n/10.95 yvari=c(3,5,8)[]
+ []
+
+[5 <figures/f-006.pdf>] <figures/f-008.pdf, id=157, 433.62pt x 433.62pt>
+File: figures/f-008.pdf Graphic file (type pdf)
+
+<use figures/f-008.pdf> <figures/f-1Db.pdf, id=158, 433.62pt x 433.62pt>
+File: figures/f-1Db.pdf Graphic file (type pdf)
+
+<use figures/f-1Db.pdf> [6 <figures/f-008.pdf>]
+<figures/f-1dC.pdf, id=172, 433.62pt x 433.62pt>
+File: figures/f-1dC.pdf Graphic file (type pdf)
+ <use figures/f-1dC.pdf>
+[7 <figures/f-1Db.pdf> <figures/f-1dC.pdf>]
+<figures/f-1Dd.pdf, id=196, 433.62pt x 433.62pt>
+File: figures/f-1Dd.pdf Graphic file (type pdf)
+ <use figures/f-1Dd.pdf>
+<figures/f-1dother.pdf, id=197, 433.62pt x 433.62pt>
+File: figures/f-1dother.pdf Graphic file (type pdf)
+
+<use figures/f-1dother.pdf> [8 <figures/f-1Dd.pdf>]
+<figures/f-sns.pdf, id=211, 433.62pt x 433.62pt>
+File: figures/f-sns.pdf Graphic file (type pdf)
+ <use figures/f-sns.pdf>
+[9 <figures/f-1dother.pdf>] <figures/f-sns2.pdf, id=225, 433.62pt x 433.62pt>
+File: figures/f-sns2.pdf Graphic file (type pdf)
+
+<use figures/f-sns2.pdf> [10 <figures/f-sns.pdf> <figures/f-sns2.pdf>]
+<figures/f-montecarlo.pdf, id=248, 433.62pt x 433.62pt>
+File: figures/f-montecarlo.pdf Graphic file (type pdf)
+
+<use figures/f-montecarlo.pdf> [11 <figures/f-montecarlo.pdf>]
+<figures/f-022.pdf, id=285, 433.62pt x 433.62pt>
+File: figures/f-022.pdf Graphic file (type pdf)
+ <use figures/f-022.pdf>
+[12] <figures/f-023.pdf, id=290, 433.62pt x 433.62pt>
+File: figures/f-023.pdf Graphic file (type pdf)
+ <use figures/f-023.pdf>
+[13 <figures/f-022.pdf>] <figures/f-024.pdf, id=305, 433.62pt x 433.62pt>
+File: figures/f-024.pdf Graphic file (type pdf)
+
+<use figures/f-024.pdf> [14 <figures/f-023.pdf> <figures/f-024.pdf>]
+<figures/f-025.pdf, id=331, 433.62pt x 433.62pt>
+File: figures/f-025.pdf Graphic file (type pdf)
+ <use figures/f-025.pdf>
+[15 <figures/f-025.pdf>] <figures/f-plotbay.pdf, id=348, 433.62pt x 433.62pt>
+File: figures/f-plotbay.pdf Graphic file (type pdf)
+
+<use figures/f-plotbay.pdf> [16]
+<figures/f-pairsbay.pdf, id=356, 433.62pt x 433.62pt>
+File: figures/f-pairsbay.pdf Graphic file (type pdf)
+
+<use figures/f-pairsbay.pdf> [17 <figures/f-plotbay.pdf> <figures/f-pairsbay.pd
+f>] <figures/f-inverse.pdf, id=379, 433.62pt x 433.62pt>
+File: figures/f-inverse.pdf Graphic file (type pdf)
+
+<use figures/f-inverse.pdf> [18]
+<figures/f-inverseranges.pdf, id=387, 433.62pt x 433.62pt>
+File: figures/f-inverseranges.pdf Graphic file (type pdf)
+
+<use figures/f-inverseranges.pdf> [19 <figures/f-inverse.pdf> <figures/f-invers
+eranges.pdf>] [20] [21]
+Overfull \hbox (30.75703pt too wide) in paragraph at lines 608--613
+\T1/aer/m/n/10.95 scat-ter plots. If you don't know the name of the func-tion, 
+try [].
+ []
+
+[22] <figures/f-subplot.pdf, id=427, 433.62pt x 433.62pt>
+File: figures/f-subplot.pdf Graphic file (type pdf)
+
+<use figures/f-subplot.pdf> <figures/f-math1.pdf, id=428, 433.62pt x 433.62pt>
+File: figures/f-math1.pdf Graphic file (type pdf)
+
+<use figures/f-math1.pdf> [23 <figures/f-subplot.pdf>]
+<figures/f-margins.pdf, id=444, 433.62pt x 433.62pt>
+File: figures/f-margins.pdf Graphic file (type pdf)
+
+<use figures/f-margins.pdf> [24 <figures/f-math1.pdf>]
+<figures/f-042.pdf, id=459, 433.62pt x 433.62pt>
+File: figures/f-042.pdf Graphic file (type pdf)
+ <use figures/f-042.pdf>
+(femmeR.bbl [25 <figures/f-margins.pdf>]) (femmeR.ind [26 <figures/f-042.pdf>]
+[27
+
+
+]) (femmeR.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5833 strings out of 95515
+ 72872 string characters out of 1189489
+ 129342 words of memory out of 1129029
+ 8419 multiletter control sequences out of 60000
+ 39934 words of font info for 86 fonts, out of 1000000 for 2000
+ 14 hyphenation exceptions out of 8191
+ 39i,12n,43p,223b,424s stack positions out of 5000i,500n,10000p,200000b,32768s
+PDF statistics:
+ 522 PDF objects out of 300000
+ 57 named destinations out of 300000
+ 222 words of extra memory for PDF output out of 65536
+<C:\texmf\fonts\type1\bluesky\cm\cmti10.pfb><C:\texmf\fonts\type1\bluesky\cm\
+cmsy8.pfb><C:\texmf\fonts\type1\bluesky\cm\cmcsc10.pfb><C:\texmf\fonts\type1\bl
+uesky\cm\cmbx10.pfb><C:\texmf\fonts\type1\bluesky\cm\cmsy10.pfb><C:\texmf\fonts
+\type1\bluesky\cm\cmr8.pfb><C:\texmf\fonts\type1\bluesky\cm\cmex10.pfb><C:\texm
+f\fonts\type1\bluesky\cm\cmmi8.pfb><C:\texmf\fonts\type1\bluesky\cm\cmmi10.pfb>
+<C:\texmf\fonts\type1\bluesky\cm\cmsltt10.pfb><C:\texmf\fonts\type1\bluesky\cm\
+cmss10.pfb><C:\texmf\fonts\type1\bluesky\cm\cmsl10.pfb><C:\texmf\fonts\type1\bl
+uesky\cm\cmr10.pfb><C:\texmf\fonts\type1\bluesky\cm\cmtt10.pfb><C:\texmf\fonts\
+type1\bluesky\cm\cmr12.pfb><C:\texmf\fonts\type1\bluesky\cm\cmssbx10.pfb><C:\te
+xmf\fonts\type1\bluesky\cm\cmtt12.pfb>
+Output written on femmeR.pdf (27 pages, 1415385 bytes).

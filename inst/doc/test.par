@@ -1,0 +1,16 @@
+Parameter values for tracer model
+Testing, testing           
+##############
+IrrigationType  =  BOTH 
+IrrigationFactor  =  5 
+IrrigationRate  =  4.8E-05 
+HeightChamber  =  0.105 
+SurfaceChamber  =  0.007853982 
+TracerAdded  =  14.43 
+SedimentationRate  =  0. 
+TemperatureChamber  =  16 
+SurfacePorosity  =  0.516 
+DeepPorosity  =  0.443 
+PorosityCoeff  =  0.3		 
+MixingLayer  =  10. 
+DbCoeff  =  1. 

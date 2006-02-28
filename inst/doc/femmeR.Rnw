@@ -1,0 +1,522 @@
+%% Henrik Andersson
+%% 2005-04-14
+\documentclass{scrartcl}
+\usepackage{booktabs}
+\usepackage{graphicx,color}
+\usepackage{natbib}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{makeidx}
+\makeindex
+\usepackage[colorlinks]{hyperref}
+
+\SweaveOpts{prefix.string=figures/f}
+
+\pagestyle{fancy}
+
+% \VignettePackage{femmeR}
+% \VignetteIndexEntry{An R companion to FEMME}
+
+\title{\Rcode{femmeR} -- An \R{} companion to FEMME}
+\author{Henrik Andersson \and Andreas Hofmann \and Karline Soetaert}
+
+\newcommand{\femmecode}[1]{\texttt{\textcolor{red}{#1}}}
+\newcommand{\Rcode}[1]{\texttt{\textcolor{blue}{#1}}}
+\newcommand{\R}{\textsf{R}}
+\newcommand{\Fortran}{\textsc{Fortran}}
+\newcommand{\fn}[1]{\texttt{#1}\index{#1}\\}
+
+
+%%% -----------------------------------------------------------------
+\begin{document}
+ 
+\maketitle
+\setcounter{tocdepth}{1}
+
+\begin{abstract}
+  \Rcode{femmeR} is a package of functions mainly used to visualize
+  output from the ecological modelling environment FEMME developed by
+  \citet{soetaert00b}.
+\end{abstract}
+
+
+\tableofcontents
+\setkeys{Gin}{width=0.6\textwidth}
+
+<<echo=false,results=hide>>=
+
+library(femmeR)
+
+@ 
+\newpage
+
+\noindent \textsf{This document explains the use of \Rcode{femmeR}, however if
+  you are not familiar with \R{} a brief guide is found in Appendix~\ref{sec:short-introduction-r}}
+
+\section{Steady state 1D}
+
+To process the output from a steady-state application, read the file
+and plot the results,\index{read.st1} \index{plot.st1}
+
+
+<<fig=TRUE>>=
+test <- read.st1("ENHDIFF1.ST1")
+
+plot(test)
+
+@ 
+
+The default plot command chooses the first and second variable in the
+output file, to plot different variables, change \Rcode{xvari} or
+\Rcode{yvari} and reverse an axis using e.g. \Rcode{rev="y"}, and
+change the default labels. 
+
+<<fig=TRUE>>=
+
+plot(test,xvari=2,yvari=1,rev="y",xlab="Radon (dpm/dm3)")
+
+@ 
+
+Adding observed values to the output is very useful to check the model
+performance,
+
+<<fig=TRUE>>=
+
+test.obs <- read.obs("sep.obs")
+plot(test,xvari=1,yvari=2,rev="vx",obs=test.obs)
+
+
+@ 
+
+\section{Time dependent 0-d}
+
+Time dependent 0-d output are read and plotted in almost exactly the
+same way as one-dimensional steady-state output. \index{read.o1} \index{plot.o1}
+
+<<fig=TRUE>>=
+test.o1 <- read.o1("DILUTIONIRRIGATION.O1")
+plot(test.o1,xvar=1,yvar=3)
+
+@ 
+
+Variable can be selected either using the number in which they appear
+in the file or by a string with the variable name,
+
+<<fig=TRUE>>=
+plot(test.o1,xvari="TIME",yvari=3)
+
+
+@ 
+
+If you don't know which variables you have, or simply forgot the
+clever names you gave them:
+
+<<varlist>>=
+test.o1
+
+@ 
+
+Plotting several variables at once is also possible, selecting a set
+with e.g. \Rcode{yvari=c(3,5,8)} or \Rcode{yvari=2:5}, or using
+the actual names of the variables, \Rcode{yvari=c("PH","CO2")}.
+
+<<fig=TRUE>>=
+plot(test.o1,xvar=1,yvari=c(3,5,8,10),main="")
+
+@ 
+\section{Time dependant 1-d}
+
+Reading a file with data varying in space and time is done in the same
+way as for other files. \index{read.o2} \index{plot.o2}
+
+<<1Da>>=
+test.o2 <- read.o2("BERG.O2")
+
+@ 
+Visualizing xyz data can be done in numerous ways, the simplest is to
+use the function \Rcode{plot.o2}:
+
+<<1Db,fig=T>>=
+plot(test.o2,zvari=3,rev="y")
+
+@ 
+
+As usual a number of options can be set, axis labels and contour lines
+can be changed:
+<<1dC,fig=T>>=
+plot(test.o2,zvari=3,ylim=c(10,0),ylab="Depth (cm)",xlab="Time (h)",linecol="white",labcex=1,lty=2)
+
+@ 
+
+Or if you don't like the contourlines and like other color palettes better:
+<<1Dd,fig=T>>=
+
+plot(test.o2,zvari=3,ylim=c(10,0),col=heat.colors(50),contour=FALSE)
+
+@ 
+
+You can also use R functions directly:
+<<1dother,fig=T>>=
+x <- test.o2$time
+y <- test.o2$depth
+z <- test.o2$data$TRACERSED
+
+persp(x,y,z,theta=130,phi=30,xlab="Time",ylab="Space",zlab="Tracersed",
+      shade=0.7,main="Model output",,col="lightblue",
+      border="darkgray")
+
+
+@ 
+
+\section{Sensitivity analysis}
+
+Read the file and plot it \index{read.sns} \index{plot.sns}
+
+<<sns,fig=T>>=
+sensible <- read.sns("BAY2.SNS")
+plot(sensible)
+
+@ 
+
+Or another variable \ldots
+
+<<sns2,fig=T>>=
+
+plot(sensible,yvari=6)
+
+@ 
+\section{Monte Carlo simulations}
+\index{read.crl}
+\index{plot.crl}
+
+<<montecarlo,fig=T>>=
+feb.crl <- read.crl("FEBRUARI.CRL")
+plot(feb.crl,xvari=3:5,yvari=25:28,size=0.6)
+
+@ 
+\section{Parameter Covariance output analysis}
+
+
+Read the file created by FEMME with
+ \index{read.pcv}
+\index{plot.pcv} \index{summary.pcv}
+
+
+<<>>=
+deepradon <- read.pcv("DEEPCOLLIN.PCV")
+
+
+@ 
+Sensitivity values can be summarized using the following indexes,
+
+\begin{align}
+  \delta^{msqr}_j&
+  =\sqrt{\frac{1}{n}\sum_{i=1}^n{s^2_{i,j}}}=\frac{1}{\sqrt{n}}||\mathbf{s}_j||,
+  \label{eq:msqr}\\
+  \delta^{mabs}_j& =\frac{1}{n}\sum_{i=1}^n{|s_{i,j}|},\label{eq:mabs}\\
+  \delta^{mean}_j& =\frac{1}{n}\sum_{i=1}^n{s_{i,j}},\label{eq:mean}\\
+  \delta^{max}_j& =\max_i s_{i,j},\label{eq:max}\\
+  \delta^{max}_j& =\min_i s_{i,j}. \label{eq:min}
+\end{align}
+
+using,
+<<>>=
+summary(deepradon)
+
+@  
+This is already done by FEMME, but using \R{} we can easily select
+only a few columns or combine results from several runs,
+
+<<>>=
+summary(deepradon)[,1:2]
+
+@ 
+To make this into a \LaTeX{} table the \Rcode{xtable} package is useful,
+
+<<>>=
+library(xtable)
+
+<<results=tex>>=
+xtable(summary(deepradon),digits=rep(4,6))
+
+@ 
+To make a plot with default settings, type,
+
+<<fig=TRUE>>=
+plot(deepradon)
+  
+@ 
+
+It is also possible to plot only one or a selection of the parameters,
+
+<<fig=TRUE>>=
+
+plot(deepradon,pari=c(1,3))
+
+@ 
+
+Or to use a common Y-axis to get the relative importance of the
+parameters in a graphical way,
+
+<<fig=TRUE>>=
+
+plot(deepradon,scale=TRUE)
+
+@ 
+
+For publishing quality figures you might want the parameter names to
+be different than the names defined in the \Fortran{} code,
+
+<<fig=TRUE>>=
+deepradon.parnames <- c(expression(epsilon),
+                        expression(phi[s]),
+                        expression(phi[infinity]),
+                        expression(k[phi]),
+                        expression(L),
+                        expression(alpha),
+                        expression(k[alpha~epsilon]),
+                        )
+
+plot(deepradon,parnames=deepradon.parnames)
+
+
+<<results=tex>>=
+deepradon.parnames.tex <- c("$\\epsilon$",
+                        "$\\phi_s$",
+                        "$\\phi_\\infty$",
+                        "$k_\\phi$",
+                        "$L$",
+                        "$\\alpha$",
+                        "$k_{\\alpha,\\epsilon}$",
+                        )
+xtable(summary(deepradon,parnames=deepradon.parnames.tex),digits=rep(4,6))
+
+
+@ 
+
+\section{Bayesian data analysis}
+
+Handling bayesian output is done in R by package
+\Rcode{coda}~\citep{coda}. \Rcode{femmeR} only provides the ability to read a file
+from Application = \femmecode{BAYES}. This creates a list with three
+components, filename, vars and data, where data is the MCMC
+values. \index{read.bay} 
+
+<<read.bay>>=
+
+berg <- read.bay("BERG_END.BAY")
+summary(berg$data)
+
+@ 
+To have a look at how the MCMC was progressing and also to get an idea
+of what the posterior distribution looks like it can be visualized in
+two different ways, first like this: \index{plot.bay}
+
+<<plotbay,fig=T>>=
+plot(berg)
+
+@ 
+
+And secondly as a pairs plot: \index{pairs.bay}
+
+<<pairsbay,fig=T>>=
+pairs(berg)
+
+@ 
+
+To check if the MCMC simulation was run long enough we can run one of
+the diagnostic utilities from \Rcode{coda}. \index{raftery.diag}
+
+<<raftery>>=
+raftery.diag(berg$data,r=0.0125)
+
+@ 
+Apparently our 2000 runs are not long enough, so according to
+\citet{raftery96} we tune the jumping distribution by calculating the
+conditional standard deviation of the parameters multiply these with
+2.3 and set this as the new jumping distribution.
+
+<<newjump>>=
+
+par1 <- lm(berg$data[,1]~berg$data[,-1])
+summary(par1)$sigma
+
+par2 <- lm(berg$data[,2]~berg$data[,-2])
+summary(par2)$sigma
+
+
+@ 
+
+\section{Inverse analysis}
+
+Food webs calculated by inverse analysis:
+
+<<inverse,fig=T>>=
+donali <- read.web("DONALI.WEB")
+plot(donali,sizelab=1)
+
+@ 
+Ranges of all flows:
+
+<<inverseranges,fig=T>>=
+dotchart.web(donali,xlab=expression(gC~m^{-2}~yr^{-1}))
+
+@ 
+\section{Parameter files}
+
+It can be useful to be able to read and write parameter files if parameters are
+varied systematically from within R and changes in model output are visualized. It can also be
+useful for logging purposes. \index{read.par} \index{write.par}
+
+<<readepar>>=
+august <- read.par("august.par")
+august
+
+august$DeepPorosity
+
+august[[2]] <- 5.0
+
+write.par(august,file="")
+write.par(august,file="test.par",ask=FALSE)
+
+@ 
+
+\textbf{Please note that using write.par with file set to something
+  else than "" and ask=F, will overwrite existing files with the same
+  name without asking before}
+
+\newpage 
+\appendix
+\section{A short introduction to R}
+\label{sec:short-introduction-r}
+
+
+\subsection{Using packages e.g. \Rcode{femmeR}}
+
+To load packages for \R{} use the command \fn{library} and to load
+\Rcode{femmeR} assuming you haven't done it already use \texttt{library(femmeR)}
+
+
+\subsection{Working directory}
+
+To see which directory you are currently working in, use \fn{getwd}
+and to change it use \fn{setwd}. Just remember to use forward slashes
+separating the directory names.
+
+@ 
+If you work with different projects in some folders on your computer
+you can also use the \fn{.Rdata} file which is saved at the end of the
+session if you answer yes on ``Save workspace image''. Doubleclick the
+\texttt{.Rdata} and \R{} will start up in that folder and your previous
+workspace is restored.
+
+@ 
+\subsection{Getting help}
+\label{sec:getting-help}
+
+To get help about a function use \texttt{?function} e.g \texttt{?plot}
+gets you all the information about scatter plots. If you don't know
+the name of the function, try \mbox{\texttt{help.search("useful
+    phrase")}}. To read the \Rcode{femmeR} manual use
+\texttt{vignette("femmeR")}.
+
+\subsection{Entering data}
+\label{sec:data}
+
+To create a vector use the command \fn{c}.
+<<createvector>>=
+
+n=c(1,5,7)
+n
+
+@ 
+Some examples of sequences:
+
+<<>>=
+x=1:10
+x
+y=seq(0,1,length=11)
+y
+F=rep("A",2)
+F
+
+@
+Combining them:
+
+<<>>=
+G=rep(c("A","B"),3)
+G
+
+@ 
+\subsection{Subplots}
+\label{sec:subplots}
+
+<<echo=false>>=
+z=0:-20
+nh4=600-(600-5)*exp(-0.2*-z)
+par(mar=c(5.1,4.1,4.1,2.1))
+heffa1=rnorm(10,mean=10)
+heffa2=rnorm(10,mean=2)
+heffa=c(heffa1,heffa2)
+f1=rep("A",10)
+f2=rep("B",10)
+f=factor(c(f1,f2))
+
+<<subplot,fig=true>>=
+par(mfrow=c(1,2))
+plot(nh4,z,type='b')
+boxplot(heffa~f)
+
+
+@ 
+
+\subsection{Mathematical expressions}
+Here is a short example with some sub/super-scripts. To get more
+information, try \Rcode{demo(plotmath)}.
+
+
+<<math1,fig=T>>=
+x <- seq(0,10,length=100)
+y <- 20/x+x^2
+curve(20/x+x^2,xlim=c(0,10))
+title(main=expression(frac(20,x)+x^2))
+text(5,100,expression(C[2]*H[4]+3~O[2]%->%2~H[2]*O+2~CO[2]))
+
+@
+
+\subsection{Customizing plots}
+
+To find possible changes to make to a plot look at \Rcode{?par}. 
+
+<<margins,fig=T>>=
+plot(test,yvari=2,main="")
+abline(v=12,lty=2,col=2)
+text(15.1,0.1,"Mixed layer depth",adj=0)
+arrows(15,0.1,12,0.12,lwd=2)
+
+
+@
+\subsection{Using colors}
+If you make a graph intended for a poster or presentation, using
+colors can be very helpful and also makes your graphs look more
+interesting.
+
+You can use colors by their name e.g. ``green'' or by hexadecimal
+notation. The latter is best generated by specialized functions such
+as \texttt{rainbow}.
+
+<<fig=TRUE>>=
+par(mfrow=c(2,2))
+barplot(rep(c(1,2),5),col=rainbow(2))
+barplot(rnorm(5),col=heat.colors(5))
+barplot(1:10,col=rainbow(10))
+pie(1:10,col=terrain.colors(10))
+
+@
+\bibliography{R}
+\bibliographystyle{plainnat}
+
+\printindex
+
+%% ------------------------------------------------------------------
+\end{document}
