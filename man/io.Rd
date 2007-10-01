@@ -16,7 +16,7 @@ with these functions
 ## Do not overwrite the model-default parameters.dec file, only files
 ## specific to the particular run
 
-write.par(parameters,file="",header="Parameter values",ask=T)
+write.par(parameters,file="",header="Parameter values",ask=TRUE)
 
 read.par(parfile)
 

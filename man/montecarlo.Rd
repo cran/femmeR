@@ -12,10 +12,10 @@
 \usage{
 read.crl(crlfile)
 
-plot.crl(x,xvari=2,yvari=3,type='p',pch=".",main=x$filename,xlab=NULL,ylab=NULL,
-                     mar=NULL,oma=NULL,size=1,...)
+\method{plot}{crl}(x,xvari=2,yvari=3,type='p',pch=".",main=x$filename,xlab=NULL,ylab=NULL,
+                     mar=NULL,oma=NULL,size=1,\dots)
 
-print.crl(x,...)
+\method{print}{crl}(x,\dots)
 
 }
 \arguments{

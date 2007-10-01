@@ -12,11 +12,12 @@
 \usage{
 read.sns(snsfile)
 
-plot.sns(x,xvari=1,yvari=2,rev="",type='l',
+\method{plot}{sns}(x,xvari=1,yvari=2,rev="",type='l',
                      pch=16,main=x$filename,xlab=NULL,ylab=NULL,
-                     xlim=NULL,ylim=NULL,...)
+                     xlim=NULL,ylim=NULL,\dots)
 
-print.sns(x,...)
+\method{print}{sns}(x,\dots)
+
 
 }
 \arguments{
@@ -25,6 +26,8 @@ print.sns(x,...)
   \item{xvari}{Index of X Variable}
   \item{yvari}{Index of Y Variable}
   \item{rev}{Reversion of axis}
+  \item{type}{Type of plot, default 'line'}
+  \item{pch}{Plotting charachter, i.e. symbols}
   \item{main}{Main title}
   \item{xlab}{X axis label}
   \item{ylab}{Y axis label}

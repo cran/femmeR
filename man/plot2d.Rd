@@ -11,9 +11,9 @@
 \usage{
 read.o2(o2file)
 
-plot.o2(x,zvari=1,col=topo.colors(100),nlevels=10,
+\method{plot}{o2}(x,zvari=1,col=topo.colors(100),nlevels=10,
         xlab="Time",ylab="Depth",rev="",xlim=NULL,
-        ylim=NULL,labcex=1.5,linecol=1,contour=TRUE,...)
+        ylim=NULL,labcex=1.5,linecol=1,contour=TRUE,\dots)
 
 }
 \arguments{

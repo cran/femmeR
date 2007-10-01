@@ -1,11 +1,11 @@
 %PDF-1.1
-%Å‚Å„ÅœÅ”
+%Å‚Å„ÅœÅ”\r
 1 0 obj
 <<
-/CreationDate (D:20060227151500)
-/ModDate (D:20060227151500)
+/CreationDate (D:20071001103414)
+/ModDate (D:20071001103414)
 /Title (R Graphics Output)
-/Producer (R 2.2.1)
+/Producer (R 2.5.1)
 /Creator (R)
 >>
 endobj
@@ -2139,7 +2139,7 @@ endobj
 4 0 obj
 <<
 /ProcSet [/PDF /Text]
-/Font << /F1 5 0 R /F2 10 0 R /F3 11 0 R /F4 12 0 R /F5 13 0 R /F6 14 0 R >>
+/Font << /F1 5 0 R >>
 /ExtGState << >>
 >>
 endobj
@@ -2147,76 +2147,29 @@ endobj
 <<
 /Type /Encoding
 /BaseEncoding /WinAnsiEncoding
-/Differences [ 45/minus ]
->>
-endobj
-10 0 obj
-<<
-/Type /Font
-/Subtype /Type1
-/Name /F2
-/BaseFont /Helvetica
-/Encoding 9 0 R
->>
-endobj
-11 0 obj
-<<
-/Type /Font
-/Subtype /Type1
-/Name /F3
-/BaseFont /Helvetica-Bold
-/Encoding 9 0 R
->>
-endobj
-12 0 obj
-<<
-/Type /Font
-/Subtype /Type1
-/Name /F4
-/BaseFont /Helvetica-Oblique
-/Encoding 9 0 R
->>
-endobj
-13 0 obj
-<<
-/Type /Font
-/Subtype /Type1
-/Name /F5
-/BaseFont /Helvetica-BoldOblique
-/Encoding 9 0 R
->>
-endobj
-14 0 obj
-<<
-/Type /Font
-/Subtype /Type1
-/Name /F6
-/BaseFont /Symbol
+/Differences [ 45/minus 96/quoteleft
+144/dotlessi /grave /acute /circumflex /tilde /macron /breve /dotaccent
+/dieresis /.notdef /ring /cedilla /.notdef /hungarumlaut /ogonek /caron /space]
 >>
 endobj
 xref
-0 15
+0 10
 0000000000 65535 f 
-0000000020 00000 n 
-0000000162 00000 n 
-0000056705 00000 n 
-0000056788 00000 n 
-0000000211 00000 n 
-0000000294 00000 n 
-0000000374 00000 n 
-0000056684 00000 n 
-0000056925 00000 n 
-0000057019 00000 n 
-0000057116 00000 n 
-0000057218 00000 n 
-0000057323 00000 n 
-0000057432 00000 n 
+0000000021 00000 n 
+0000000163 00000 n 
+0000056706 00000 n 
+0000056789 00000 n 
+0000000212 00000 n 
+0000000295 00000 n 
+0000000375 00000 n 
+0000056685 00000 n 
+0000056871 00000 n 
 trailer
 <<
-/Size 15
+/Size 10
 /Info 1 0 R
 /Root 2 0 R
 >>
 startxref
-57510
+57128
 %%EOF

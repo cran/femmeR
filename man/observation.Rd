@@ -8,10 +8,10 @@
 \usage{
 read.obs(obsfile)
 
-plot.obs(x ,xvari="time",yvari=NULL,rev="",type="b",pch=16,time=NULL,main=x$filename,err="l",errpch=1,
-                       xlim=NULL,ylim=NULL,xlab=NULL,ylab=NULL,...)
+\method{plot}{obs}(x ,xvari="time",yvari=NULL,rev="",type="b",pch=16,time=NULL,main=x$filename,err="l",errpch=1,
+                       xlim=NULL,ylim=NULL,xlab=NULL,ylab=NULL,\dots)
 
-points.obs(x ,xvari="time",yvari=1,rev="",...)
+\method{points}{obs}(x ,xvari="time",yvari=1,rev="",\dots)
 }
 \arguments{
   \item{obsfile}{File ending in .obs}

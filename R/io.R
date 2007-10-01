@@ -18,7 +18,7 @@
 ### Parameter files *.par: Do Not Write to parameters.dec and the like
 ###==================================================================
 
- write.par <- function(parameters,file="",header="Parameter values",ask=T){
+ write.par <- function(parameters,file="",header="Parameter values",ask=TRUE){
    if(ask&file!=""&file.exists(file)){
      cat("Are you sure you want to overwrite this file? (y/N) \n")
      answer <- readline()

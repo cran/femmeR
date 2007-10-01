@@ -164,7 +164,7 @@ read.obs  <- function (obsfile)
             if (abserr )       error <-            x$data$abserr  [selection]
             if (relerr )    { 
 
-              if (reverseAxes){ error <- error + xx*x$data$relerr  [selection]}
+              if (reverseaxes){ error <- error + xx*x$data$relerr  [selection]}
               else            { error <- error + yy*x$data$relerr  [selection]}
             }
 

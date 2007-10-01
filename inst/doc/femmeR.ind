@@ -1,18 +1,18 @@
 \begin{theindex}
 
-  \item .Rdata, \hyperpage{22}
+  \item .Rdata, \hyperpage{21}
 
   \indexspace
 
-  \item c, \hyperpage{22}
+  \item c, \hyperpage{21}
 
   \indexspace
 
-  \item getwd, \hyperpage{22}
+  \item getwd, \hyperpage{21}
 
   \indexspace
 
-  \item library, \hyperpage{22}
+  \item library, \hyperpage{21}
 
   \indexspace
 
@@ -32,18 +32,18 @@
   \item read.crl, \hyperpage{11}
   \item read.o1, \hyperpage{4}
   \item read.o2, \hyperpage{6}
-  \item read.par, \hyperpage{20}
+  \item read.par, \hyperpage{19}
   \item read.pcv, \hyperpage{11}
   \item read.sns, \hyperpage{9}
   \item read.st1, \hyperpage{2}
 
   \indexspace
 
-  \item setwd, \hyperpage{22}
+  \item setwd, \hyperpage{21}
   \item summary.pcv, \hyperpage{11}
 
   \indexspace
 
-  \item write.par, \hyperpage{20}
+  \item write.par, \hyperpage{19}
 
 \end{theindex}

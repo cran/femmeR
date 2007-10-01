@@ -12,9 +12,9 @@
 \usage{
 read.o1(o1file)
 
-plot.o1(x,xvari=1,yvari=2,rev="",type='l',obs=NULL,pch=16,
+\method{plot}{o1}(x,xvari=1,yvari=2,rev="",type='l',obs=NULL,pch=16,
         main=x$filename,xlab=NULL,ylab=NULL,xlim=NULL,ylim=NULL,
-        mar=NULL,oma=NULL,obsname=obs$filename,...)
+        mar=NULL,oma=NULL,obsname=obs$filename,\dots)
 
 }
 

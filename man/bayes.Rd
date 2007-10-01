@@ -14,8 +14,8 @@
 
 \usage{
 read.bay(bayfile)
-plot.bay(x,...)
-pairs.bay(x,start,end,...)
+\method{plot}{bay}(x, \dots)
+\method{pairs}{bay}(x,start,end,\dots)
 
 }
 

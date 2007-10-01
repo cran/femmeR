@@ -83,7 +83,7 @@ performance,
 <<fig=TRUE>>=
 
 test.obs <- read.obs("sep.obs")
-plot(test,xvari=1,yvari=2,rev="vx",obs=test.obs)
+plot(test,xvari=1,yvari=2,rev="y",obs=test.obs)
 
 
 @ 
@@ -267,27 +267,27 @@ plot(deepradon,scale=TRUE)
 For publishing quality figures you might want the parameter names to
 be different than the names defined in the \Fortran{} code,
 
-<<fig=TRUE>>=
+<<radon1,fig=TRUE>>=
 deepradon.parnames <- c(expression(epsilon),
                         expression(phi[s]),
                         expression(phi[infinity]),
                         expression(k[phi]),
                         expression(L),
                         expression(alpha),
-                        expression(k[alpha~epsilon]),
+                        expression(k[alpha~epsilon])
                         )
 
 plot(deepradon,parnames=deepradon.parnames)
 
 
-<<results=tex>>=
+<<radon2,results=tex>>=
 deepradon.parnames.tex <- c("$\\epsilon$",
                         "$\\phi_s$",
                         "$\\phi_\\infty$",
                         "$k_\\phi$",
                         "$L$",
                         "$\\alpha$",
-                        "$k_{\\alpha,\\epsilon}$",
+                        "$k_{\\alpha,\\epsilon}$"
                         )
 xtable(summary(deepradon,parnames=deepradon.parnames.tex),digits=rep(4,6))
 

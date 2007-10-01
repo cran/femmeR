@@ -1,4 +1,4 @@
-\name{Sensitivity}
+\name{Parameter sensitivity}
 \alias{read.pcv}
 \alias{plot.pcv}
 \alias{points.pcv}
@@ -20,11 +20,11 @@ read.pcv(pcvfile)
 
 ## sensitivity analysis
 
-summary.pcv(object, parnames = NULL,order=TRUE,...)
+\method{summary}{pcv}(object, parnames = NULL,order=TRUE,\dots)
 
-plot.pcv(x,xvar=seq(along=sens.data[,1]),ylim=NULL,pari=seq(1,length(x$sens)-4),parnames=NULL,type='b',scale=FALSE,...)
+\method{plot}{pcv}(x,xvar=seq(along=sens.data[,1]),ylim=NULL,pari=seq(1,length(x$sens)-4),parnames=NULL,type='b',scale=FALSE,\dots)
 
-points.pcv(x,xvar=seq(along=sens.data[,1]),pari=1,type='b',...)
+\method{points}{pcv}(x,xvar=seq(along=sens.data[,1]),pari=1,type='b',\dots)
 
 ## Collinearity tables
 

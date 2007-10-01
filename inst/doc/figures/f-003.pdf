@@ -1,11 +1,11 @@
 %PDF-1.1
-%Å‚Å„ÅœÅ”
+%Å‚Å„ÅœÅ”\r
 1 0 obj
 <<
-/CreationDate (D:20060227151452)
-/ModDate (D:20060227151452)
+/CreationDate (D:20071001103411)
+/ModDate (D:20071001103411)
 /Title (R Graphics Output)
-/Producer (R 2.2.1)
+/Producer (R 2.5.1)
 /Creator (R)
 >>
 endobj
@@ -161,12 +161,12 @@ Q q
 387.74 59.04 m 387.74 51.84 l S
 BT
 0.000 0.000 0.000 rg
-/F2 1 Tf 12.00 0.00 0.00 12.00 59.33 33.12 Tm (0.00) Tj
-/F2 1 Tf 12.00 0.00 0.00 12.00 122.68 33.12 Tm (0.05) Tj
-/F2 1 Tf 12.00 0.00 0.00 12.00 186.02 33.12 Tm (0.10) Tj
-/F2 1 Tf 12.00 0.00 0.00 12.00 249.37 33.12 Tm (0.15) Tj
-/F2 1 Tf 12.00 0.00 0.00 12.00 312.72 33.12 Tm (0.20) Tj
-/F2 1 Tf 12.00 0.00 0.00 12.00 376.06 33.12 Tm (0.25) Tj
+/F2 1 Tf 12.00 0.00 -0.00 12.00 59.33 33.12 Tm (0.00) Tj
+/F2 1 Tf 12.00 0.00 -0.00 12.00 122.68 33.12 Tm (0.05) Tj
+/F2 1 Tf 12.00 0.00 -0.00 12.00 186.02 33.12 Tm (0.10) Tj
+/F2 1 Tf 12.00 0.00 -0.00 12.00 249.37 33.12 Tm (0.15) Tj
+/F2 1 Tf 12.00 0.00 -0.00 12.00 312.72 33.12 Tm (0.20) Tj
+/F2 1 Tf 12.00 0.00 -0.00 12.00 376.06 33.12 Tm (0.25) Tj
 ET
 59.04 403.21 m 59.04 71.14 l S
 59.04 403.21 m 51.84 403.21 l S
@@ -194,15 +194,15 @@ S
 Q q
 BT
 0.000 0.000 0.000 rg
-/F2 1 Tf 12.00 0.00 0.00 12.00 189.25 4.32 Tm (Radon \(dpm/dm3\)) Tj
+/F2 1 Tf 12.00 0.00 -0.00 12.00 189.25 4.32 Tm (Radon \(dpm/dm3\)) Tj
 /F2 1 Tf 0.00 12.00 -12.00 0.00 12.96 171.27 Tm (SEDIMENTDEPTH \(CM\)) Tj
-/F3 1 Tf 14.00 0.00 0.00 14.00 188.59 419.05 Tm (ENHDIFF1.ST1) Tj
+/F3 1 Tf 14.00 0.00 -0.00 14.00 188.59 419.05 Tm (ENHDIFF1.ST1) Tj
 ET
 Q
 endstream
 endobj
 8 0 obj
-3285
+3293
 endobj
 3 0 obj
 <<
@@ -217,7 +217,7 @@ endobj
 4 0 obj
 <<
 /ProcSet [/PDF /Text]
-/Font << /F1 5 0 R /F2 10 0 R /F3 11 0 R /F4 12 0 R /F5 13 0 R /F6 14 0 R >>
+/Font << /F1 5 0 R /F2 10 0 R /F3 11 0 R >>
 /ExtGState << >>
 >>
 endobj
@@ -225,76 +225,45 @@ endobj
 <<
 /Type /Encoding
 /BaseEncoding /WinAnsiEncoding
-/Differences [ 45/minus ]
+/Differences [ 45/minus 96/quoteleft
+144/dotlessi /grave /acute /circumflex /tilde /macron /breve /dotaccent
+/dieresis /.notdef /ring /cedilla /.notdef /hungarumlaut /ogonek /caron /space]
 >>
 endobj
-10 0 obj
-<<
+10 0 obj <<
 /Type /Font
 /Subtype /Type1
 /Name /F2
 /BaseFont /Helvetica
 /Encoding 9 0 R
->>
-endobj
-11 0 obj
-<<
+>> endobj
+11 0 obj <<
 /Type /Font
 /Subtype /Type1
 /Name /F3
 /BaseFont /Helvetica-Bold
 /Encoding 9 0 R
->>
-endobj
-12 0 obj
-<<
-/Type /Font
-/Subtype /Type1
-/Name /F4
-/BaseFont /Helvetica-Oblique
-/Encoding 9 0 R
->>
-endobj
-13 0 obj
-<<
-/Type /Font
-/Subtype /Type1
-/Name /F5
-/BaseFont /Helvetica-BoldOblique
-/Encoding 9 0 R
->>
-endobj
-14 0 obj
-<<
-/Type /Font
-/Subtype /Type1
-/Name /F6
-/BaseFont /Symbol
->>
-endobj
+>> endobj
 xref
-0 15
+0 12
 0000000000 65535 f 
-0000000020 00000 n 
-0000000162 00000 n 
-0000003732 00000 n 
-0000003815 00000 n 
-0000000211 00000 n 
-0000000294 00000 n 
-0000000374 00000 n 
-0000003712 00000 n 
-0000003952 00000 n 
-0000004046 00000 n 
-0000004143 00000 n 
-0000004245 00000 n 
-0000004350 00000 n 
-0000004459 00000 n 
+0000000021 00000 n 
+0000000163 00000 n 
+0000003741 00000 n 
+0000003824 00000 n 
+0000000212 00000 n 
+0000000295 00000 n 
+0000000375 00000 n 
+0000003721 00000 n 
+0000003928 00000 n 
+0000004185 00000 n 
+0000004282 00000 n 
 trailer
 <<
-/Size 15
+/Size 12
 /Info 1 0 R
 /Root 2 0 R
 >>
 startxref
-4537
+4384
 %%EOF

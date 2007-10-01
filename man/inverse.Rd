@@ -12,8 +12,8 @@
 \usage{
 read.web(webfile)
 
-plot.web(x, sizelab = 1.5, sizefig = 1.3, main="",sub="", log=FALSE,
-legend=TRUE,...)
+\method{plot}{web}(x, sizelab = 1.5, sizefig = 1.3, main="",sub="", log=FALSE,
+legend=TRUE,\dots)
 
 dotchart.web(x, log="", pch = 16, bg = par("bg"), color = par("fg"), 
                             lcolor = "gray", xlim = NULL, main = NULL, 
